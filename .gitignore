@@ -1,5 +1,6 @@
 # Custom rules
 logs/*
+!logs/.gitkeep
 .vscode/*
 
 #---- TEMPLATE ----
