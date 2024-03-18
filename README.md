@@ -10,6 +10,8 @@ The main components of this template are:
 
 - `logging_config.yaml`: This YAML file is a configuration file for the logging system. It defines the loggers, handlers, filters, and formatters that will be used in the application.
 
+- `logging_config/*.yaml`: Ready to use logging configs in YAML format.
+
 ## Usage
 
 To use this logging template, import the logger configuration in your Python script and use it to configure the Python `logging` module. The `logging_config.yaml` file can be modified to customize the logging setup according to your needs.
