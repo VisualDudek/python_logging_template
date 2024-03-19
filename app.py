@@ -2,6 +2,7 @@ import atexit
 import logging.config
 import yaml
 import logging
+from helper import show_logging_form_diff_module
 import sys
 
 
@@ -35,3 +36,5 @@ try:
     1 / 0
 except ZeroDivisionError:
     logger.exception('This is an exception message')
+
+show_logging_form_diff_module()
