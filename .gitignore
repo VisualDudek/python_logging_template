@@ -2,6 +2,7 @@
 logs/*
 !logs/.gitkeep
 .vscode/*
+.github/*
 
 #---- TEMPLATE ----
 # Byte-compiled / optimized / DLL files
