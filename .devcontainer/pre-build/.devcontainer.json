@@ -1,0 +1,4 @@
+{
+    "name": "my-project-devcontainer",
+    "image": "mcr.microsoft.com/devcontainers/python:3"  // Any generic, debian-based image.
+}
