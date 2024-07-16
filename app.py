@@ -16,6 +16,7 @@ logging.config.dictConfig(config)
 # Get a logger object
 logger = logging.getLogger(__name__)
 
+# For the following part of code check readme multi-threaded/process part 
 # Start the queue listener if Pyhon 3.12 or later
 if sys.version_info >= (3, 12):
     queue_handler = logging.getHandlerByName('queue_handler')
