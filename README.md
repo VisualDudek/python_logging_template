@@ -21,3 +21,13 @@ To use this logging template, import the logger configuration in your Python scr
 - **Sensitive Data Filter**: This filter removes sensitive data from the logs to ensure that it is not accidentally exposed.
 
 - **Password Filter**: This filter removes password information from the logs for security purposes.
+
+## Multi-thread/process
+The `queue_handler` is used in logging to manage log messages in a multi-threaded or multi-process environment. It places log messages into a queue, which a separate thread or process reads from, ensuring that logging operations do not block the main execution flow of your application. 
+
+### Is it Necessary?
+
+- **Multi-threaded/Multi-process Applications**: Essential for handling log messages efficiently.
+- **Single-threaded Applications**: Not necessary, but it can still be useful for organizing and managing log messages.
+
+If your application involves concurrent execution, using a `queue_handler` is beneficial for robust and efficient logging. If it's a simple, single-threaded application, it might not be necessary.
